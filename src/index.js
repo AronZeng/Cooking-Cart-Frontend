@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Router from './components/Router';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Col, Row } from 'antd';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
